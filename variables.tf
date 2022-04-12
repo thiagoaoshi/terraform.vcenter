@@ -62,8 +62,8 @@ variable "compute_name" {
 }
 
 # variable "worgroup_name" {
-#     description = "Nome do workgroup"
-#     default = "banese.com.br"
+#     description = "CASO use workgroup"
+#     default = "workgroup"
 # }
 
 variable "admin_password" {
