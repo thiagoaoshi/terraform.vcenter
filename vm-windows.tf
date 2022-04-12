@@ -1,0 +1,19 @@
+module "vm-windows" {
+    source = "./modulos/vm_windows"
+    datacenter_name = "#{vcenter-datacenter}#"
+    vsphere_server = "#{vsphere_server}#"
+    vsphere_password = "#{vsphere_password}#"
+    datastore_name = "#{datastore_name}#"
+    network_name = "#{network_name}#"
+    template_name = "#{template_name}#"
+    cluster_name = "#{cluster_name}#"
+    vm_name = "#{vm_name}#"
+    num_cpus = #{num_cpus}#
+    memory = #{memory}#
+    adapter_name = "#{adapter_name}#"
+    compute_name = "#{compute_name}#"
+    ip_address = ["#{ip_address}#"]
+    ipv4_gateway = "#{ipv4_gateway}#"
+    dns_ip = ["#{dns_ip}#"]
+    folder = "#{folder}#"
+}
