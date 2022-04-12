@@ -1,5 +1,5 @@
 # Introduction 
-Projeto criado para instanciar VMs de forma automatizada no VCENTER de homologação idealemnte sendo startado via pipeline no azure devops utilizando modulos do terraform
+Projeto criado para instanciar VMs de forma automatizada no VCENTER idealemnte sendo startado via pipeline no azure devops utilizando modulos do terraform
 
 # Getting Started
 Arquivos de variaveis sao os que devem ser ajustados aprincipio
